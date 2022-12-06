@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Military School</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <ul class="menu">
+      <li class="btn_1"><a href="index.html">home</a></li>
+      <li class="btn_2"><a href="history.html">history</a></li>
+      <li class="btn_3"><a href="#">education</a></li>
+      <li class="btn_4"><a href="careers.html">careers</a></li>
+      <li class="btn_5"><a href="#">contacts</a></li>
+    </ul>
+    <img src="images/logo.jpg" alt="" name="logo" width="230" height="68" id="logo"/> <img src="images/slogan.jpg" alt="" name="logo" width="387" height="146" id="slogan"/> </div>
+
+
+<h2>FIND YOUR PATH</h2>
+
+<h1>ARMY CAREER MATCH</h1>
+<p>Discover the career for you and opportunities you never knew existed.
+</p>
+<br>
+<form action="search.php" method="GET"> 
+<p>What's your name?
+  <input type="text" name="name">
+  <input type="submit" value="Submit">
+</p>
+</form>
+<br><br>
+<h3>Existing Vacancies</h3>
+<ul>
+<li>Weapons system officer</li>
+<li>Cyber Defence Coordinator</li>
+<li>Fighter Pilot L1</li<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Log In </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/styleslogin.css">
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <ul class="menu">
+      <li class="btn_1"><a href="index.html">home</a></li>
+      <li class="btn_2"><a href="history.html">history</a></li>
+      <li class="btn_3"><a href="#">education</a></li>
+      <li class="btn_4"><a href="careers.html">careers</a></li>
+      <li class="btn_5"><a href="#">contacts</a></li>
+    </ul>
+    <img src="images/logo1.jpg" alt="" name="logo" width="230" height="68" id="logo"/> </div>
+
+ 
+    <div id = "frm">  
+        <h1>Login</h1>  
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
+            <p>  
+                <label> UserName: </label>  
+                <input type = "text" id ="user" name  = "user" />  
+            </p>  
+            <p>  
+                <label> Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" />  
+            </p>  
+            <p>     
+                <input type =  "submit" id = "btn" value = "Login" />  
+            </p>  
+        </form>  
+    </div>  
+    
+    <script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>   
+ 
+
+</body>
+</html>
